@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const ClashDisplayBold = localFont({
-  src: "../app/fonts/ClashDisplay-Bold.ttf",
+  src: "../app/fonts/ClashDisplay-Bold.woff",
   variable: "--font-clash-display",
 });
 const openSans = Open_Sans({

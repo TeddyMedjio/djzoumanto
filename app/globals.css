@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000;
+  --background: rgb(8, 8, 7);
   --foreground: #ffff;
   --secondary: #fbd291;
+  --card: rgba(137, 89, 57, 0.05);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-secondary: var(--secondary);
+  --color-card: var(--card);
   --font-sans: var(--font-open-sans);
   --font-clash: var(--font-clash-display);
 }
