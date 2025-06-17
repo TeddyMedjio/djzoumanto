@@ -1,7 +1,9 @@
 import About from "./components/about";
+import Contact from "./components/contact";
 import HeroSection from "./components/hero-section";
 import InfiniteSlider from "./components/InfiniteSlider";
 import Navbar from "./components/navbar";
+import Playlists from "./components/playlists";
 import Stats from "./components/stats";
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Stats />
       <About />
       <InfiniteSlider />
+      <Playlists />
+      <Contact />
     </div>
   );
 }

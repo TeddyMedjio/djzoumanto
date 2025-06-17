@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div>
       <Container>
-        <div className="flex flex-col md:flex-row md:items-center">
+        <div className="flex flex-col md:flex-row md:items-center mb-10 md:mb-20">
           {/* bloc image */}
-          <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 mb-20 ">
+          <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 ">
             <div className="absolute h-full w-full md:left-5 top-5 overflow-hidden rounded-3xl">
               <Image
                 src="https://framerusercontent.com/images/Suw1nvjPZJItYNqng3GVSW4Ug.jpg?scale-down-to=1024"
@@ -24,6 +24,7 @@ export default function About() {
           <div className="flex-1 md:ml-20 lg:ml-30">
             {/* bloc de textes */}
             <div className="space-y-5">
+              <div className="h-1 w-16 rounded-full bg-secondary mb-10"></div>
               <h1 className=" text-4xl lg:text-5xl font-clash uppercase">
                 Have Been a dj my whole life
               </h1>
