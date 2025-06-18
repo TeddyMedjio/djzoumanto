@@ -5,19 +5,19 @@ import Container from "./container";
 const navigation = [
   {
     name: "About",
-    link: "/",
+    link: "#about",
   },
   {
     name: "Services",
-    link: "/",
+    link: "#services",
   },
   {
     name: "testimonials",
-    link: "/",
+    link: "#testimonials",
   },
   {
     name: "Contact",
-    link: "/",
+    link: "#contact",
   },
 ];
 
@@ -33,13 +33,20 @@ export default function Navbar() {
             <li key={index}>
               <Link
                 href={nav.link}
-                className="hover:text-white transition duration-300 ease-in-out"
+                className="hover:text-secondary transition duration-300 ease-in-out"
               >
                 {nav.name}
               </Link>
             </li>
           ))}
         </ul>
+        <Link
+          href="https://wa.me/676336034"
+          className="border border-white/40 px-8 py-2 rounded-full hidden md:block hover:bg-green-600 hover:text-white transition duration-300 ease-in-out"
+          target="_blank"
+        >
+          Booking
+        </Link>
       </nav>
     </Container>
   );

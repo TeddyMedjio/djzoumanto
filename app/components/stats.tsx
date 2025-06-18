@@ -22,7 +22,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="my-20 md:my-40">
+    <div className="py-20">
       <Container>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-20">
           {stats.map((stat, indx) => (

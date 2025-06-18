@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding: 10rem; */
+}
+
+.animate-spin {
+  animation: spin 18s linear infinite /*  */;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {

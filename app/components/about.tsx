@@ -7,7 +7,10 @@ export default function About() {
   return (
     <div>
       <Container>
-        <div className="flex flex-col md:flex-row md:items-center mb-10 md:mb-20">
+        <div
+          id="about"
+          className="flex flex-col md:flex-row md:items-center mb-10 md:mb-20 pt-20 pb-[100px]"
+        >
           {/* bloc image */}
           <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 ">
             <div className="absolute h-full w-full md:left-5 top-5 overflow-hidden rounded-3xl">

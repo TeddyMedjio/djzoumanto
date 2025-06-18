@@ -32,7 +32,7 @@ const playlists = [
 
 export default function Playlists() {
   return (
-    <div className="my-20">
+    <div id="services" className="pt-20 pb-[100px]">
       <Container>
         {/* titre */}
         <div className="grid place-items-center mb-5 md:mb-20">

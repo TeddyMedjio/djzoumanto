@@ -18,7 +18,6 @@ export async function POST(req: NextRequest) {
       from: `${email}`,
       to: `${process.env.GMAIL_USER}`,
       subject: "Nouveau message depuis le formulaire",
-      Telephone: `${phone}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>

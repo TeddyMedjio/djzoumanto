@@ -5,7 +5,7 @@ import ContactForm from "./formulaire/form";
 
 export default function Contact() {
   return (
-    <div className="my-20 md:my-40">
+    <div id="contact" className="pt-20 pb-[100px]">
       <Container>
         {" "}
         {/* titre */}
