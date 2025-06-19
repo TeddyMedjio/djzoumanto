@@ -13,18 +13,18 @@ export default function About() {
         >
           {/* bloc image */}
           <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 ">
-            <div className="absolute h-full w-full md:left-5 top-5 overflow-hidden rounded-3xl">
+            <div className="absolute h-full w-full md:left-5 top-5 overflow-hidden rounded-3xl mb-4">
               <Image
                 src="/zoumanto2.jpeg"
                 alt="image du dj"
                 fill={true}
-                className=" h-full w-full right-4 object-cover"
+                className=" absolute inset-0 object-top"
               />
             </div>
           </div>
 
           {/* partie de droite avec les textes */}
-          <div className="flex-1 md:ml-20 lg:ml-30">
+          <div className="flex-1 md:ml-20 lg:ml-30 mt-20 md:mt-0">
             {/* bloc de textes */}
             <div className="space-y-5">
               <div className="h-1 w-16 rounded-full bg-secondary mb-10"></div>

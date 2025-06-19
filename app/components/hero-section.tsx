@@ -7,7 +7,7 @@ import RotateText from "./icons/rotate-text";
 
 export default function HeroSection() {
   return (
-    <div className="pt-20 pb-[100px] relative overflow-hidden">
+    <div className="md:pt-20 pb-[100px] relative overflow-hidden">
       <span className="hidden md:block absolute top-30 -left-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
       <span className="hidden md:block absolute top-60 -right-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
       <Container>
@@ -15,7 +15,7 @@ export default function HeroSection() {
           {/* partie de gauche avec les textes */}
           <div className="flex-1 md:mr-10">
             {/* icon ecouteur */}
-            <div className="relative w-fit border-white/20 border rounded-full p-3">
+            <div className="hidden md:block relative w-fit border-white/20 border rounded-full p-3">
               <span className="absolute inset-1.5 border border-white/40 rounded-full"></span>
               <span className="absolute inset-3.5 border border-white/70 rounded-full"></span>
               <Headphone />
@@ -23,7 +23,7 @@ export default function HeroSection() {
             {/* bloc de textes */}
             <div className="space-y-5 mt-8">
               <p className="">Dj Zoumanto, Club Dj</p>
-              <h1 className=" text-5xl lg:text-6xl font-clash uppercase">
+              <h1 className=" text-[38px] leading-[44px] md:leading-none md:text-5xl lg:text-6xl font-clash uppercase">
                 Dj that keeps your club full all night long
               </h1>
               <p className="text-white/75 max-w-md">
@@ -47,7 +47,7 @@ export default function HeroSection() {
             {/* button play animate */}
             <Link
               href="https://open.spotify.com/intl-fr/artist/31LVsorBiAYk7jtM7Hr41a"
-              className="absolute top-10 -left-10 h-20 w-20 rounded-full bg-white/4 z-10 hover:scale-120 transition duration-300 ease-in-out"
+              className="absolute top-10 left-10 md:-left-10 size-20 rounded-full bg-white/4 z-10 hover:scale-120 transition duration-300 ease-in-out"
               target="_blank"
             >
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">

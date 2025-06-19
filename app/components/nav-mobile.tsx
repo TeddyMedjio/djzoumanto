@@ -32,7 +32,7 @@ export function NavMobile() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <MenuIcon size={30} />
+        <MenuIcon size={30} className="md:hidden" />
       </SheetTrigger>
       <SheetContent
         side="top"
