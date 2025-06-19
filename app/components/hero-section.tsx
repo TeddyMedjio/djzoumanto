@@ -8,7 +8,7 @@ import { PlayIcon } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <div className="pt-20 pb-[100px] relative">
+    <div className="pt-20 pb-[100px] relative overflow-hidden">
       <span className="hidden md:block absolute top-30 -left-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
       <span className="hidden md:block absolute top-60 -right-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
       <Container>

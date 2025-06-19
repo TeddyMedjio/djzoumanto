@@ -6,7 +6,6 @@ import InfiniteSlider from "./components/InfiniteSlider";
 import Playlists from "./components/playlists";
 import Stats from "./components/stats";
 import Testimonials from "./components/testimonials";
-import { EmblaOptionsType } from "embla-carousel";
 
 export default function Home() {
   return (
