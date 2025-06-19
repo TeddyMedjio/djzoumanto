@@ -4,7 +4,6 @@ import Headphone from "./icons/headphone";
 import Link from "next/link";
 import Image from "next/image";
 import RotateText from "./icons/rotate-text";
-import { PlayIcon } from "lucide-react";
 
 export default function HeroSection() {
   return (

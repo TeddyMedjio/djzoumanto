@@ -36,7 +36,7 @@ const items = [
 
 export default function Caroussel({
   autoSlide = false,
-  autoSlideInterval = 4000,
+  autoSlideInterval = 5000,
 }) {
   const [curr, setCurr] = useState(0);
 
