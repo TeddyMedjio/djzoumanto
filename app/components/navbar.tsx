@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Container from "./container";
+import { NavMobile } from "./nav-mobile";
 
 const navigation = [
   {
@@ -47,6 +48,7 @@ export default function Navbar() {
         >
           Booking
         </Link>
+        <NavMobile />
       </nav>
     </Container>
   );
