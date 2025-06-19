@@ -59,9 +59,12 @@ export default function Playlists() {
             <p className="text-white/75 col-span-3 mr-8 mt-5 md:mt-0">
               {playlist.descp}
             </p>
-            <div className="hidden col-span-1 md:flex justify-end">
-              <div className="bg-white group-hover:bg-secondary p-2 rounded-full transition duration-300 ease-in-out size-12 ">
-                <StepForward size={32} className="text-background" />
+            <div className="hidden col-span-1 md:flex justify-end ">
+              <div className="bg-white  p-2 rounded-full transition duration-300 ease-in-out size-12 overflow-">
+                <div className="flex gap-1 -translate-x-9 group-hover:-translate-x-0 transition duration-300 ease-in-out">
+                  <StepForward size={32} className="text-background shrink-0" />
+                  <StepForward size={32} className="text-background shrink-0" />
+                </div>
               </div>
             </div>
           </Link>
