@@ -27,8 +27,8 @@ export default function HeroSection() {
                 Dj that keeps your club full all night long
               </h1>
               <p className="text-white/75 max-w-md">
-                Let’s keep your club packed with beats that move the crowd all
-                night and create an unforgettable vibe.
+                Let&apos;s keep your club packed with beats that move the crowd
+                all night and create an unforgettable vibe.
               </p>
             </div>
             {/* buttons */}

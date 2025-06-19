@@ -49,8 +49,8 @@ export default function Footer() {
               <span className="text-secondary">DJ</span>ZOUMANTO
             </Link>
             <p className="max-w-[300px] text-white/75 text-sm mt-4">
-              Let’s keep your club packed with beats that move the crowd all
-              night and create an unforgettable vibe.
+              Let&apos;s keep your club packed with beats that move the crowd
+              all night and create an unforgettable vibe.
             </p>
           </div>
           <div className="flex flex-row items-start gap-20 mt-10 md:mt-0">

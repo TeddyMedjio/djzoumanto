@@ -1,6 +1,5 @@
 "use client";
 
-import { StarIcon } from "lucide-react";
 import Slider from "react-infinite-logo-slider";
 
 export default function InfiniteSlider() {
