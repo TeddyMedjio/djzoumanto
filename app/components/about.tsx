@@ -15,7 +15,7 @@ export default function About() {
           <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 ">
             <div className="absolute h-full w-full md:left-5 top-5 overflow-hidden rounded-3xl">
               <Image
-                src="https://framerusercontent.com/images/Suw1nvjPZJItYNqng3GVSW4Ug.jpg?scale-down-to=1024"
+                src="/zoumanto2.jpeg"
                 alt="image du dj"
                 fill={true}
                 className=" h-full w-full right-4 object-cover"

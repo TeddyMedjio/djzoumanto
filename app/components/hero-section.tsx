@@ -8,7 +8,9 @@ import { PlayIcon } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <div className="pt-20 pb-[100px]">
+    <div className="pt-20 pb-[100px] relative">
+      <span className="hidden md:block absolute top-30 -left-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
+      <span className="hidden md:block absolute top-60 -right-10 h-[500px] w-[500px] bg-secondary/5 rounded-full blur-[100px] -z-50"></span>
       <Container>
         <div className="flex flex-col md:flex-row md:items-center">
           {/* partie de gauche avec les textes */}
@@ -68,7 +70,7 @@ export default function HeroSection() {
             </Link>
             <div className="absolute h-full w-full md:right-5 top-5 overflow-hidden rounded-3xl">
               <Image
-                src="https://framerusercontent.com/images/77pASphUGg97ObRS40Yx3JUNmo.jpg?scale-down-to=1024"
+                src="/zoumanto.jpeg"
                 alt="image du dj"
                 fill={true}
                 className=" h-full w-full right-4 object-cover"

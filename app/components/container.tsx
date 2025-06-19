@@ -4,7 +4,7 @@ interface Props {
 
 export default function Container({ children }: Props) {
   return (
-    <div className="mx-auto px-5 md:px-10 lg:px-0 lg:max-w-[1120px]">
+    <div className="mx-auto px-5 md:px-10 lg:px-0 max-w-[1120px]">
       {children}
     </div>
   );
