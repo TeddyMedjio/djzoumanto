@@ -9,7 +9,7 @@ export default function About() {
       <Container>
         <div
           id="about"
-          className="flex flex-col md:flex-row md:items-center mb-10 md:mb-20 pt-20 pb-[100px]"
+          className="flex flex-col md:flex-row md:items-center mb-10 md:mb-20 pt-20 lg:pb-[50px]"
         >
           {/* bloc image */}
           <div className="relative h-[350px] md:h-[544px] md:w-[250px] lg:h-[544px] lg:w-[448px] rounded-3xl bg-card md:mt-0 ">
@@ -18,7 +18,7 @@ export default function About() {
                 src="/zoumanto2.jpeg"
                 alt="image du dj"
                 fill={true}
-                className=" absolute inset-0 object-top"
+                className=" absolute inset-0 object-cover"
               />
             </div>
           </div>
