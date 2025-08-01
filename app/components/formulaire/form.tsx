@@ -35,7 +35,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-card text-white p-8 rounded-2xl w-full mx-auto space-y-6 "
+      className="bg-card text-white p-4 md:p-8 rounded-2xl w-full mx-auto space-y-6 "
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>

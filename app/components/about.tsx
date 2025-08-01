@@ -18,7 +18,7 @@ export default function About() {
                 src="/zoumanto2.jpeg"
                 alt="image du dj"
                 fill={true}
-                className=" absolute inset-0 object-cover"
+                className=" absolute inset-0 object-cover object-top"
               />
             </div>
           </div>
