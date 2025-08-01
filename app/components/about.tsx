@@ -44,7 +44,7 @@ export default function About() {
             <div className="mt-8 flex flex-col md:flex-row items-start md:items-center gap-10">
               <Link
                 href="/"
-                className="border border-white/40 px-8 py-3 rounded-full hidden md:block hover:bg-white hover:text-black transition duration-300 ease-in-out"
+                className="border border-white/40 px-8 py-3 rounded-full hidden md:block hover:bg-secondary hover:text-black transition duration-300 ease-in-out"
               >
                 Contact me
               </Link>

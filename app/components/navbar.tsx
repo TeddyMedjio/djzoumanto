@@ -43,7 +43,7 @@ export default function Navbar() {
         </ul>
         <Link
           href="https://wa.me/676336034"
-          className="border border-white/40 px-8 py-2 rounded-full hidden md:block hover:bg-green-600 hover:text-white transition duration-300 ease-in-out"
+          className="border border-white/40 px-8 py-2 rounded-full hidden md:block hover:bg-secondary hover:text-black transition duration-300 ease-in-out"
           target="_blank"
         >
           Booking
